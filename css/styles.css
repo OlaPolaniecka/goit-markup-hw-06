@@ -695,6 +695,7 @@ label {
 input {
   display: block;
   margin-top: 4px;
+  padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 448px;
@@ -707,7 +708,7 @@ input:focus {
   border: 1px solid #2196f3;
   outline: none;
 }
-input:focus + svg {
+input:focus + .svg-form {
   fill: #2196f3;
   transition-property: fill;
   transition-duration: 250ms;
